@@ -1,0 +1,35 @@
+columnSuffix: qeqaknlr
+contentColumnType: text
+fieldGroup: bcca1c51-0096-430f-b114-7fa1a68cd5ea # Common
+handle: seo
+instructions: null
+name: SEO
+searchable: false
+settings:
+  description: ''
+  hideSocial: ''
+  robots:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+  socialImage: ''
+  suffixAsPrefix: null
+  title:
+    -
+      __assoc__:
+        -
+          - key
+          - '1'
+        -
+          - locked
+          - '0'
+        -
+          - template
+          - '{title}'
+  titleSuffix: null
+translationKeyFormat: null
+translationMethod: site
+type: ether\seo\fields\SeoField

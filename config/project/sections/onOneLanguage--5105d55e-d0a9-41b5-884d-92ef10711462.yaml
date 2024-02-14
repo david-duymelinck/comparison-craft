@@ -1,0 +1,17 @@
+defaultPlacement: end
+enableVersioning: true
+handle: onOneLanguage
+name: 'On one language'
+propagationMethod: none
+siteSettings:
+  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en 1
+    enabledByDefault: true
+    hasUrls: true
+    template: sections
+    uriFormat: '{slug}'
+  b224667f-40f1-495b-a4e5-d7f03067a9a4: # en 2
+    enabledByDefault: true
+    hasUrls: true
+    template: sections
+    uriFormat: '{slug}'
+type: channel

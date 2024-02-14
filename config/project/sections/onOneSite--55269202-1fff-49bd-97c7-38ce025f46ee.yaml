@@ -1,0 +1,22 @@
+defaultPlacement: end
+enableVersioning: true
+handle: onOneSite
+name: 'On one site'
+propagationMethod: none
+siteSettings:
+  3bf95ece-687f-47dc-af48-e3b21d67cd70: # nl 1
+    enabledByDefault: true
+    hasUrls: true
+    template: sections
+    uriFormat: '{slug}'
+  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en 1
+    enabledByDefault: true
+    hasUrls: true
+    template: sections
+    uriFormat: '{slug}'
+  222bc59b-a78b-418d-bf26-7d2ca2c3c053: # fr 1
+    enabledByDefault: true
+    hasUrls: true
+    template: sections
+    uriFormat: '{slug}'
+type: channel

@@ -1,0 +1,25 @@
+{% extends "layout.twig" %}
+
+{% block header %}
+    {% hook "page-translations" %}
+{% endblock %}
+
+{% block main %}
+    <h1>{{ entry.title }}</h1>
+    {% for section in entry.sections.all() %}
+        {% if section.type == "text" %}
+            {%  include "fields/text.twig" with {
+                title: section.text_title,
+                text: section.text
+            } only %}
+        {% elseif section.type == "reusable" %}
+            {% set reusable = section.reusable.one().reusables.one() %}
+            {% if reusable.type == "text" %}
+                {%  include "fields/text.twig" with {
+                    title: reusable.text_title,
+                    text: reusable.text
+                } only %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endblock %}

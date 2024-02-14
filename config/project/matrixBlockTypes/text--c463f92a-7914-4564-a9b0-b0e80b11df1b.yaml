@@ -1,0 +1,82 @@
+field: 2bb9cda2-d6f3-4d96-8821-5f75bcf80c14 # reusables
+fieldLayouts:
+  40e4ce5f-7ac1-4301-bee5-bd325bdebee3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a1791ac8-cbe9-43b6-9eeb-1457eb43ee1e # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e7a3784e-4c92-42eb-9266-518a6f11a39a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3f06f51b-24db-4bcf-94ab-763dee6523af # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9d10f71a-624c-4e8b-a4ec-e8f441b21378
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fcfa5145-3d5a-4605-9ac5-03d1764fd4d1
+        userCondition: null
+fields:
+  3f06f51b-24db-4bcf-94ab-763dee6523af: # Text
+    columnSuffix: yoptrjcz
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      ckeConfig: 83f03672-8bf4-4167-9375-03a423bc5cdf # Simple
+      columnType: text
+      defaultTransform: null
+      enableSourceEditingForNonAdmins: false
+      purifierConfig: null
+      purifyHtml: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      showWordCount: false
+      wordLimit: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  a1791ac8-cbe9-43b6-9eeb-1457eb43ee1e: # Title
+    columnSuffix: jmiqlhpq
+    contentColumnType: text
+    fieldGroup: null
+    handle: text_title
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: text
+name: Text
+sortOrder: 1

@@ -1,0 +1,9 @@
+baseUrl: 'http://cms-comp4.lndo.site/'
+enabled: '1'
+handle: en2
+hasUrls: true
+language: en
+name: 'en 2'
+primary: false
+siteGroup: 611dd27d-735b-49aa-b2a7-0543de6ceb50 # 2
+sortOrder: 4

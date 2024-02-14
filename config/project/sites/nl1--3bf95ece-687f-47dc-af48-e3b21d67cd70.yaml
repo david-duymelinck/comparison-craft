@@ -1,0 +1,9 @@
+baseUrl: 'http://cms-comp3.lndo.site/nl/'
+enabled: '1'
+handle: nl1
+hasUrls: true
+language: nl
+name: 'nl 1'
+primary: false
+siteGroup: 48e4b0ab-023b-44d9-a420-2cf31d8d0744 # 1
+sortOrder: 3
