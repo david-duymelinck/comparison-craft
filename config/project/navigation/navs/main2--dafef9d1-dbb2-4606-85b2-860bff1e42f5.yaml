@@ -1,0 +1,198 @@
+defaultPlacement: end
+fieldLayouts:
+  1b1dd8fe-db2b-49e8-959e-36d82b317b9c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 713d50dc-0f2c-49b4-a3af-fcd3957d438e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: verbb\navigation\fieldlayoutelements\NodeTypeElements
+            uid: 8347d4f9-faba-477a-8a9c-cab9e56def60
+            userCondition: null
+            warning: null
+          -
+            attribute: newWindow
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            mandatory: false
+            orientation: null
+            requirable: true
+            required: false
+            tip: null
+            translatable: false
+            type: verbb\navigation\fieldlayoutelements\NewWindowField
+            uid: 679342e5-9bbf-4a7b-8ba9-9ad5acdeb335
+            userCondition: null
+            warning: null
+            width: 100
+        name: Node
+        uid: 05a02ece-d466-4bc6-ad0b-85d5b2c04b3c
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            attribute: urlSuffix
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: verbb\navigation\fieldlayoutelements\UrlSuffixField
+            uid: c5ff4452-d7b5-43fb-affb-f6ef4f80f8cc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: classes
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            mandatory: false
+            max: null
+            maxlength: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: true
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            translatable: false
+            type: verbb\navigation\fieldlayoutelements\ClassesField
+            uid: 12dddd5d-0e36-4830-87b8-aff5cef25b7e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: customAttributes
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            mandatory: false
+            orientation: null
+            requirable: true
+            required: false
+            tip: null
+            translatable: false
+            type: verbb\navigation\fieldlayoutelements\CustomAttributesField
+            uid: 445d42d7-2e1f-4474-83e1-a7931b11d39c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Advanced
+        uid: 789493e7-7cca-4d23-b393-55b7e9545945
+        userCondition: null
+handle: main2
+instructions: ''
+maxNodes: null
+name: 'main 2'
+permissions:
+  craft\elements\Asset:
+    enabled: ''
+    permissions: '*'
+  craft\elements\Category:
+    enabled: ''
+    permissions: '*'
+  craft\elements\Entry:
+    enabled: '1'
+    permissions:
+      - 'section:55269202-1fff-49bd-97c7-38ce025f46ee' # On one site
+      - 'section:5105d55e-d0a9-41b5-884d-92ef10711462' # On one language
+      - 'section:116ce282-ae1c-4bec-a84d-5aacadad3ea4' # Fixed template
+      - singles
+  craft\elements\Tag:
+    enabled: ''
+    permissions: '*'
+  verbb\navigation\nodetypes\CustomType:
+    enabled: '1'
+  verbb\navigation\nodetypes\PassiveType:
+    enabled: '1'
+  verbb\navigation\nodetypes\SiteType:
+    enabled: '1'
+propagationMethod: language
+siteSettings:
+  3bf95ece-687f-47dc-af48-e3b21d67cd70: # nl 1
+    enabled: false
+  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en 1
+    enabled: false
+  9df8ca98-7fae-4523-8a3c-2b237f90d1da: # fr 2
+    enabled: true
+  222bc59b-a78b-418d-bf26-7d2ca2c3c053: # fr 1
+    enabled: false
+  b224667f-40f1-495b-a4e5-d7f03067a9a4: # en 2
+    enabled: true
+  e912387a-a004-4771-a91e-3bd0f67929da: # nl 2
+    enabled: true
+sortOrder: 2
+structure:
+  maxLevels: null
+  uid: 2787bff0-0e6b-455b-aa8a-35199d2cce3c

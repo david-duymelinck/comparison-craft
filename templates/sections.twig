@@ -1,9 +1,5 @@
 {% extends "layout.twig" %}
 
-{% block header %}
-    {% hook "page-translations" %}
-{% endblock %}
-
 {% block main %}
     <h1>{{ entry.title }}</h1>
     {% for section in entry.sections.all() %}
@@ -22,4 +18,8 @@
             {% endif %}
         {% endif %}
     {% endfor %}
+
+    <section>
+        {{ craft.formie.renderForm('contact') }}
+    </section>
 {% endblock %}

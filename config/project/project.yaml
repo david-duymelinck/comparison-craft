@@ -1,4 +1,4 @@
-dateModified: 1707744707
+dateModified: 1707919518
 email:
   fromEmail: test@iodigital.com
   fromName: comparison
@@ -38,12 +38,15 @@ meta:
     368eac59-6924-4e60-80e5-b78c9f3894a5: Text # Text
     606a7cae-404c-4c84-9377-79d2158ea7b7: reusable # reusable
     611dd27d-735b-49aa-b2a7-0543de6ceb50: '2' # 2
+    627ff44e-0c6d-4bf9-a487-466becca6014: 'main 1' # main 1
     798b8e18-0efe-4e7b-9326-ae32cf64d3bc: 'text & media' # text & media
     5105d55e-d0a9-41b5-884d-92ef10711462: 'On one language' # On one language
     7319b25b-5d3b-460a-bd07-faf2a2b640f5: Text # Text
+    37262e64-318e-496f-8c59-3d320f728f4b: 'Contact Form' # Contact Form
     891576b9-cd36-4d25-bea6-5aa1f9174bdf: Default # Default
     55269202-1fff-49bd-97c7-38ce025f46ee: 'On one site' # On one site
     a6d71d18-7a28-457e-8873-f3a613eea5ee: Homepage # Homepage
+    a69dc9a0-593c-4341-b1b2-a33de4ed09a3: New # New
     a1791ac8-cbe9-43b6-9eeb-1457eb43ee1e: Title # Title
     acee17c6-abd7-4e2f-b482-36e998007480: Image # Image
     b224667f-40f1-495b-a4e5-d7f03067a9a4: 'en 2' # en 2
@@ -54,6 +57,7 @@ meta:
     c463f92a-7914-4564-a9b0-b0e80b11df1b: Text # Text
     cc82686c-2db7-4f1f-a78c-763bda28a9d1: Middle # Middle
     da258fd9-e08e-4ba9-a5cb-8673f7825e51: 'Reusable sections' # Reusable sections
+    dafef9d1-dbb2-4606-85b2-860bff1e42f5: 'main 2' # main 2
     dcd69f7c-1533-46a0-ae81-8d1e390a1cfb: Title # Title
     e3704af8-eb4f-4de1-8a2e-2fa7b6fd2955: Text # Text
     e912387a-a004-4771-a91e-3bd0f67929da: 'nl 2' # nl 2
@@ -62,6 +66,16 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  formie:
+    edition: standard
+    enabled: true
+    licenseKey: A8DO5FU9C118MAB4ZL6TFZIO
+    schemaVersion: 2.0.13
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: ZU0KEB6BFQ9RQ71A6NCEO09S
+    schemaVersion: 2.0.7
   seo:
     edition: standard
     enabled: true

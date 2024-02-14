@@ -9,7 +9,10 @@
 </head>
 <body>
 <header>
-    {% block header %}{% endblock %}
+    {% block header %}
+        {{ craft.navigation.render(currentSite.groupId == 1 ? 'main': 'main2') }}
+        {% hook "page-translations" %}
+    {% endblock %}
 </header>
 <main>{% block main %}{% endblock %}</main>
 <footer>{% block footer %}{% endblock %}</footer>
