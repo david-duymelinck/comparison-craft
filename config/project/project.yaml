@@ -1,4 +1,4 @@
-dateModified: 1707919518
+dateModified: 1709298102
 email:
   fromEmail: test@iodigital.com
   fromName: comparison
@@ -70,7 +70,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: A8DO5FU9C118MAB4ZL6TFZIO
-    schemaVersion: 2.0.13
+    schemaVersion: 2.0.15
   navigation:
     edition: standard
     enabled: true
