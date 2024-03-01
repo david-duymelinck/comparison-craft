@@ -11,4 +11,7 @@ return [
     'password' => App::env('CRAFT_DB_PASSWORD'),
     'schema' => App::env('CRAFT_DB_SCHEMA'),
     'tablePrefix' => App::env('CRAFT_DB_TABLE_PREFIX'),
+    'attributes' => App::env('CRAFT_ENVIRONMENT') === 'production' ? [
+        PDO::MYSQL_ATTR_SSL_CA => App::env('MYSQL_ATTR_SSL_CA'),
+    ] : [],
 ];
