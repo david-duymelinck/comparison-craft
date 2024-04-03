@@ -1,4 +1,4 @@
-dateModified: 1709298102
+dateModified: 1712044936
 email:
   fromEmail: test@iodigital.com
   fromName: comparison
@@ -8,58 +8,41 @@ fs:
     hasUrls: true
     name: public
     settings:
-      path: $CONTEXT_DOCUMENT_ROOT/assets
+      path: $CONTEXT_DOCUMENT_ROOT
     type: craft\fs\Local
-    url: //$URL_1/assets
+    url: '@url-1/assets'
 meta:
   __names__:
-    0b5d8503-f709-4bfa-8eb7-ef788eaaceed: Image # Image
-    0fa31f7c-33a9-4c0c-aa25-bf9d18f320cb: Image # Image
     2bb9cda2-d6f3-4d96-8821-5f75bcf80c14: reusables # reusables
     3bf95ece-687f-47dc-af48-e3b21d67cd70: 'nl 1' # nl 1
-    3cfa557e-3bec-46d1-8d4a-edbabe4884a8: 'Text & media' # Text & media
-    3f06f51b-24db-4bcf-94ab-763dee6523af: Text # Text
-    4aa2d675-e328-4ef1-b42a-2b1a3459e93e: Text # Text
     4c2973da-f0f3-4062-a4c2-545b4aa40608: sections # sections
     5cd36e6f-075d-4d60-9136-1851f3a0348f: SEO # SEO
-    5d68452e-5eef-432e-9dc2-a1cde184ab60: reusable # reusable
-    7aa10b97-ad2b-44d4-95fa-f0ccc16bfdfa: 'Text & media' # Text & media
-    7c87c1b1-8258-4dc2-be88-9a023ba59de7: 'en 1' # en 1
+    7c87c1b1-8258-4dc2-be88-9a023ba59de7: en1 # en1
     7c9464ea-878f-4c5c-b3c0-f6f4e7376b1d: Bottom # Bottom
     7d3a4a01-3a0f-415b-84a4-19a062ee83be: Default # Default
-    8e4b7985-a087-435c-91c7-544630d5a65b: Reusable # Reusable
-    9d55798e-8a44-4357-9aa1-c35dc4c41752: Text # Text
     9df8ca98-7fae-4523-8a3c-2b237f90d1da: 'fr 2' # fr 2
     15bca145-bbc9-414a-bedd-d1216c071f87: Top # Top
     48e4b0ab-023b-44d9-a420-2cf31d8d0744: '1' # 1
     83f03672-8bf4-4167-9375-03a423bc5cdf: Simple # Simple
     116ce282-ae1c-4bec-a84d-5aacadad3ea4: 'Fixed template' # Fixed template
     222bc59b-a78b-418d-bf26-7d2ca2c3c053: 'fr 1' # fr 1
-    368eac59-6924-4e60-80e5-b78c9f3894a5: Text # Text
     606a7cae-404c-4c84-9377-79d2158ea7b7: reusable # reusable
     611dd27d-735b-49aa-b2a7-0543de6ceb50: '2' # 2
     627ff44e-0c6d-4bf9-a487-466becca6014: 'main 1' # main 1
-    798b8e18-0efe-4e7b-9326-ae32cf64d3bc: 'text & media' # text & media
     5105d55e-d0a9-41b5-884d-92ef10711462: 'On one language' # On one language
-    7319b25b-5d3b-460a-bd07-faf2a2b640f5: Text # Text
     37262e64-318e-496f-8c59-3d320f728f4b: 'Contact Form' # Contact Form
-    891576b9-cd36-4d25-bea6-5aa1f9174bdf: Default # Default
+    891576b9-cd36-4d25-bea6-5aa1f9174bdf: 'Fixed template - Default' # Fixed template - Default
     55269202-1fff-49bd-97c7-38ce025f46ee: 'On one site' # On one site
     a6d71d18-7a28-457e-8873-f3a613eea5ee: Homepage # Homepage
     a69dc9a0-593c-4341-b1b2-a33de4ed09a3: New # New
-    a1791ac8-cbe9-43b6-9eeb-1457eb43ee1e: Title # Title
-    acee17c6-abd7-4e2f-b482-36e998007480: Image # Image
+    b09e1ba7-fc80-47bf-91c2-d521abcb15d6: thumb # thumb
     b224667f-40f1-495b-a4e5-d7f03067a9a4: 'en 2' # en 2
-    bcca1c51-0096-430f-b114-7fa1a68cd5ea: Common # Common
     becdda3e-ef63-4634-9c41-6fe4612d2428: public # public
     c4c948c0-d942-4e13-bda3-c950a935617a: Homepage # Homepage
-    c165e5d5-06fb-45b2-9634-e1863c4722f2: Default # Default
-    c463f92a-7914-4564-a9b0-b0e80b11df1b: Text # Text
+    c165e5d5-06fb-45b2-9634-e1863c4722f2: 'On one language - Default' # On one language - Default
     cc82686c-2db7-4f1f-a78c-763bda28a9d1: Middle # Middle
     da258fd9-e08e-4ba9-a5cb-8673f7825e51: 'Reusable sections' # Reusable sections
     dafef9d1-dbb2-4606-85b2-860bff1e42f5: 'main 2' # main 2
-    dcd69f7c-1533-46a0-ae81-8d1e390a1cfb: Title # Title
-    e3704af8-eb4f-4de1-8a2e-2fa7b6fd2955: Text # Text
     e912387a-a004-4771-a91e-3bd0f67929da: 'nl 2' # nl 2
 plugins:
   ckeditor:
@@ -70,12 +53,12 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: A8DO5FU9C118MAB4ZL6TFZIO
-    schemaVersion: 2.0.15
+    schemaVersion: 3.4.2
   navigation:
     edition: standard
     enabled: true
     licenseKey: ZU0KEB6BFQ9RQ71A6NCEO09S
-    schemaVersion: 2.0.7
+    schemaVersion: 2.1.0
   seo:
     edition: standard
     enabled: true
@@ -114,7 +97,7 @@ system:
   edition: solo
   live: true
   name: comparison
-  schemaVersion: 4.5.3.0
+  schemaVersion: 5.0.0.20
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

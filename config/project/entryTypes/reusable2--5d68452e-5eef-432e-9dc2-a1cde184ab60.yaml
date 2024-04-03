@@ -1,0 +1,36 @@
+color: null
+fieldLayouts:
+  1263843d-9d57-4fc2-b017-2c9677ed7d5c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8e4b7985-a087-435c-91c7-544630d5a65b
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Reusable
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 76781871-4dd8-401a-9902-8a0ed3df7c03
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3c1d4b1e-0cad-46be-b104-277cd71aa6a5
+        userCondition: null
+handle: reusable2
+hasTitleField: false
+icon: null
+name: 'reusable 2'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

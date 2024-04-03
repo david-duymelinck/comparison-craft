@@ -182,7 +182,7 @@ propagationMethod: language
 siteSettings:
   3bf95ece-687f-47dc-af48-e3b21d67cd70: # nl 1
     enabled: false
-  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en 1
+  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en1
     enabled: false
   9df8ca98-7fae-4523-8a3c-2b237f90d1da: # fr 2
     enabled: true

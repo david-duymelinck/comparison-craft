@@ -1,10 +1,22 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - c165e5d5-06fb-45b2-9634-e1863c4722f2 # On one language - Default
 handle: onOneLanguage
+maxAuthors: 1
 name: 'On one language'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: none
 siteSettings:
-  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en 1
+  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en1
     enabledByDefault: true
     hasUrls: true
     template: sections

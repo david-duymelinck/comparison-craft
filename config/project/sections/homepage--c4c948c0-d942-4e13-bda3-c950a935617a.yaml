@@ -1,7 +1,19 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - a6d71d18-7a28-457e-8873-f3a613eea5ee # Homepage
 handle: homepage
+maxAuthors: 1
 name: Homepage
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   3bf95ece-687f-47dc-af48-e3b21d67cd70: # nl 1
@@ -9,7 +21,7 @@ siteSettings:
     hasUrls: true
     template: sections
     uriFormat: __home__
-  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en 1
+  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en1
     enabledByDefault: true
     hasUrls: true
     template: sections

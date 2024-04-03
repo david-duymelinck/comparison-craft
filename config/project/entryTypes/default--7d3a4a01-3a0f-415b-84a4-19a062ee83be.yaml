@@ -49,7 +49,6 @@ fieldLayouts:
 handle: default
 hasTitleField: true
 name: Default
-section: 55269202-1fff-49bd-97c7-38ce025f46ee # On one site
 showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

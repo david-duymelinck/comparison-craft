@@ -1,0 +1,16 @@
+columnSuffix: ovwiyoeg
+handle: text_title2
+instructions: null
+name: 'sections - Text - Title'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

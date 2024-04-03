@@ -3,12 +3,12 @@
 {% block main %}
     <h1>{{ entry.title }}</h1>
     {% for section in entry.sections.all() %}
-        {% if section.type == "text" %}
+        {% if section.type.handle == "text" %}
             {%  include "fields/text.twig" with {
                 title: section.text_title,
                 text: section.text
             } only %}
-        {% elseif section.type == "reusable" %}
+        {% elseif section.type.handle == "reusable2" %}
             {% set reusable = section.reusable.one().reusables.one() %}
             {% if reusable.type == "text" %}
                 {%  include "fields/text.twig" with {
@@ -16,6 +16,8 @@
                     text: reusable.text
                 } only %}
             {% endif %}
+        {% elseif section.type == "image"%}
+            <p><img src="{{ section.imagecontent.one().url("thumb") }}"></p>
         {% endif %}
     {% endfor %}
 

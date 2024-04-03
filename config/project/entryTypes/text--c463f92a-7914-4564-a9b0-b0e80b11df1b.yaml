@@ -1,0 +1,51 @@
+color: null
+fieldLayouts:
+  40e4ce5f-7ac1-4301-bee5-bd325bdebee3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a1791ac8-cbe9-43b6-9eeb-1457eb43ee1e
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Title
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e7a3784e-4c92-42eb-9266-518a6f11a39a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3f06f51b-24db-4bcf-94ab-763dee6523af
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Text
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9d10f71a-624c-4e8b-a4ec-e8f441b21378
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fcfa5145-3d5a-4605-9ac5-03d1764fd4d1
+        userCondition: null
+handle: text
+hasTitleField: false
+icon: null
+name: Text
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

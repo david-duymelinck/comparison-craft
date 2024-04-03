@@ -1,16 +1,17 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: bcca1c51-0096-430f-b114-7fa1a68cd5ea # Common
 handle: reusables
 instructions: null
 name: reusables
 searchable: false
 settings:
-  contentTable: '{{%matrixcontent_reusables}}'
-  maxBlocks: 1
-  minBlocks: 1
+  entryTypes:
+    - c463f92a-7914-4564-a9b0-b0e80b11df1b
+  maxEntries: 1
+  minEntries: 1
   propagationKeyFormat: null
   propagationMethod: none
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

@@ -70,10 +70,9 @@ fieldLayouts:
         name: Content
         uid: 48d28d87-c390-402e-baa3-e5500d3205e2
         userCondition: null
-handle: default
+handle: fixedTemplate_default
 hasTitleField: true
-name: Default
-section: 116ce282-ae1c-4bec-a84d-5aacadad3ea4 # Fixed template
+name: 'Fixed template - Default'
 showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

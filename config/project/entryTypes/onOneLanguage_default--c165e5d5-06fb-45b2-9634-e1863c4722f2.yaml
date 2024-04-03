@@ -46,10 +46,9 @@ fieldLayouts:
         name: Content
         uid: 9ac1ec4b-f31f-4865-afc9-23427f337b7a
         userCondition: null
-handle: default
+handle: onOneLanguage_default
 hasTitleField: true
-name: Default
-section: 5105d55e-d0a9-41b5-884d-92ef10711462 # On one language
+name: 'On one language - Default'
 showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

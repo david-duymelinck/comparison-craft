@@ -3,7 +3,7 @@ enabled: true
 handle: en1
 hasUrls: true
 language: en
-name: 'en 1'
+name: en1
 primary: true
 siteGroup: 48e4b0ab-023b-44d9-a420-2cf31d8d0744 # 1
 sortOrder: 1

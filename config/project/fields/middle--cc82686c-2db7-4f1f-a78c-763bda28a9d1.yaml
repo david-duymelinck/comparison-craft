@@ -1,16 +1,17 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: bcca1c51-0096-430f-b114-7fa1a68cd5ea # Common
 handle: middle
 instructions: null
 name: Middle
 searchable: false
 settings:
-  contentTable: '{{%matrixcontent_middle}}'
-  maxBlocks: 1
-  minBlocks: 1
+  entryTypes:
+    - 3cfa557e-3bec-46d1-8d4a-edbabe4884a8
+  maxEntries: 1
+  minEntries: 1
   propagationKeyFormat: null
   propagationMethod: none
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

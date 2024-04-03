@@ -1,5 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - 606a7cae-404c-4c84-9377-79d2158ea7b7 # reusable
 handle: reusableSections
 name: 'Reusable sections'
 propagationMethod: siteGroup
@@ -9,7 +11,7 @@ siteSettings:
     hasUrls: false
     template: null
     uriFormat: null
-  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en 1
+  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en1
     enabledByDefault: true
     hasUrls: false
     template: null

@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: reusable
+instructions: null
+name: 'sections - reusable - Reusable'
+searchable: true
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: true
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:da258fd9-e08e-4ba9-a5cb-8673f7825e51' # Reusable sections
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

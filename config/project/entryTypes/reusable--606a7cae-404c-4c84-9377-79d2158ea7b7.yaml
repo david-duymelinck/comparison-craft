@@ -49,7 +49,6 @@ fieldLayouts:
 handle: reusable
 hasTitleField: true
 name: reusable
-section: da258fd9-e08e-4ba9-a5cb-8673f7825e51 # Reusable sections
 showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: none
