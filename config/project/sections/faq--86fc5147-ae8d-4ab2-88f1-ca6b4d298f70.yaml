@@ -1,0 +1,56 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - f9de601d-d705-4f6e-b1b1-6628ab67eaac # Question
+  - 851f8550-ce59-40bd-93ad-dfae9d1d2e0b # Answer
+handle: faq
+maxAuthors: 1
+name: FAQ
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  3bf95ece-687f-47dc-af48-e3b21d67cd70: # nl 1
+    enabledByDefault: true
+    hasUrls: true
+    template: faq/_entry
+    uriFormat: 'faq/{slug}'
+  7c87c1b1-8258-4dc2-be88-9a023ba59de7: # en1
+    enabledByDefault: true
+    hasUrls: true
+    template: faq/_entry
+    uriFormat: 'faq/{slug}'
+  9df8ca98-7fae-4523-8a3c-2b237f90d1da: # fr 2
+    enabledByDefault: true
+    hasUrls: true
+    template: faq/_entry
+    uriFormat: 'faq/{slug}'
+  222bc59b-a78b-418d-bf26-7d2ca2c3c053: # fr 1
+    enabledByDefault: true
+    hasUrls: true
+    template: faq/_entry
+    uriFormat: 'faq/{slug}'
+  b224667f-40f1-495b-a4e5-d7f03067a9a4: # en 2
+    enabledByDefault: true
+    hasUrls: true
+    template: faq/_entry
+    uriFormat: 'faq/{slug}'
+  e912387a-a004-4771-a91e-3bd0f67929da: # nl 2
+    enabledByDefault: true
+    hasUrls: true
+    template: faq/_entry
+    uriFormat: 'faq/{slug}'
+structure:
+  maxLevels: null
+  uid: 4f91e9e1-301f-4b96-93cd-33e6fd22b2d5
+type: structure

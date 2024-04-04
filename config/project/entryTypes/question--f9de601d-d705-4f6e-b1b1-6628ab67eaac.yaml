@@ -1,0 +1,50 @@
+color: null
+fieldLayouts:
+  a76bc4ec-83b1-439e-af58-002ae5400eff:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a7d01728-2bdb-4a85-bad9-8b3ca4986007
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 14eefbb5-772a-40f6-b25c-22cd82f0ce0b
+        userCondition: null
+handle: question
+hasTitleField: true
+icon: ''
+name: Question
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

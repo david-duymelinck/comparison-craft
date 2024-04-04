@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 8e4b7985-a087-435c-91c7-544630d5a65b
+            fieldUid: 8e4b7985-a087-435c-91c7-544630d5a65b # sections - reusable - Reusable
             handle: null
             includeInCards: true
             instructions: null

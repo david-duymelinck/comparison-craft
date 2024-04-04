@@ -6,7 +6,7 @@ name: reusables
 searchable: false
 settings:
   entryTypes:
-    - c463f92a-7914-4564-a9b0-b0e80b11df1b
+    - c463f92a-7914-4564-a9b0-b0e80b11df1b # Text
   maxEntries: 1
   minEntries: 1
   propagationKeyFormat: null

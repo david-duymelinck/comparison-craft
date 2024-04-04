@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 368eac59-6924-4e60-80e5-b78c9f3894a5
+            fieldUid: 368eac59-6924-4e60-80e5-b78c9f3894a5 # Top - text & media - Text
             handle: text
             includeInCards: true
             instructions: null
@@ -22,7 +22,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 0b5d8503-f709-4bfa-8eb7-ef788eaaceed
+            fieldUid: 0b5d8503-f709-4bfa-8eb7-ef788eaaceed # Top - text & media - Image
             handle: image
             includeInCards: false
             instructions: null

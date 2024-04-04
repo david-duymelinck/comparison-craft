@@ -6,9 +6,9 @@ name: sections
 searchable: false
 settings:
   entryTypes:
-    - 4aa2d675-e328-4ef1-b42a-2b1a3459e93e
-    - 5d68452e-5eef-432e-9dc2-a1cde184ab60
-    - efa60687-3a3d-4f2b-ae2a-110f6ccb3100
+    - 4aa2d675-e328-4ef1-b42a-2b1a3459e93e # Text 2
+    - 5d68452e-5eef-432e-9dc2-a1cde184ab60 # reusable 2
+    - efa60687-3a3d-4f2b-ae2a-110f6ccb3100 # Image
   maxEntries: null
   minEntries: null
   propagationKeyFormat: null

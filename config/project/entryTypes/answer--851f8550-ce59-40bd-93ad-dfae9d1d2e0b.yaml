@@ -1,0 +1,50 @@
+color: null
+fieldLayouts:
+  df6cac42-a952-465d-92ae-3aa5b0370499:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e14fa93e-f628-4700-89e0-182111c32af4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ff1c764c-c188-4bf7-af01-731a79173aeb
+        userCondition: null
+handle: answer
+hasTitleField: true
+icon: ''
+name: Answer
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

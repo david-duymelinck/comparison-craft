@@ -6,7 +6,7 @@ name: Top
 searchable: false
 settings:
   entryTypes:
-    - 798b8e18-0efe-4e7b-9326-ae32cf64d3bc
+    - 798b8e18-0efe-4e7b-9326-ae32cf64d3bc # text & media
   maxEntries: 1
   minEntries: 1
   propagationKeyFormat: null

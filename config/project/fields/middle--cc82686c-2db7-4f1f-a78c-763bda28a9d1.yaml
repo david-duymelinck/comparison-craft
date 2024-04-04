@@ -6,7 +6,7 @@ name: Middle
 searchable: false
 settings:
   entryTypes:
-    - 3cfa557e-3bec-46d1-8d4a-edbabe4884a8
+    - 3cfa557e-3bec-46d1-8d4a-edbabe4884a8 # Text & media 2
   maxEntries: 1
   minEntries: 1
   propagationKeyFormat: null

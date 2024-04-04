@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 14f9ac01-ef74-4e5a-83a8-363a644a45bf
+            fieldUid: 14f9ac01-ef74-4e5a-83a8-363a644a45bf # sections - Image - Content
             handle: null
             includeInCards: true
             instructions: null
