@@ -14,6 +14,13 @@ services:
     overrides:
       environment:
         PHP_IDE_CONFIG: "serverName=appserver"
+  database:
+    type: mysql:8.0
+    portforward: true
+    creds:
+      user: lando
+      password: lando
+      database: lando
 proxy:
   appserver:
     - cms-comp3.lndo.site
