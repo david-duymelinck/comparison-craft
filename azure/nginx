@@ -3,7 +3,7 @@ server {
         #proxy_cache_valid 200 1s;
     listen 8080;
     listen [::]:8080;
-    root /home/site/wwwroot/public;
+    root /home/site/wwwroot/web;
     index  index.php index.html index.htm;
     server_name craft-cms.azurewebsites.net;
     port_in_redirect off;
