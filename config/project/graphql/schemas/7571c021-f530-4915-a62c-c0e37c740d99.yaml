@@ -1,0 +1,10 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.7c87c1b1-8258-4dc2-be88-9a023ba59de7:read' # en1
+  - 'sites.222bc59b-a78b-418d-bf26-7d2ca2c3c053:read' # fr 1
+  - 'sites.3bf95ece-687f-47dc-af48-e3b21d67cd70:read' # nl 1
+  - 'sites.b224667f-40f1-495b-a4e5-d7f03067a9a4:read' # en 2
+  - 'sites.9df8ca98-7fae-4523-8a3c-2b237f90d1da:read' # fr 2
+  - 'sites.e912387a-a004-4771-a91e-3bd0f67929da:read' # nl 2
+  - 'sections.c4c948c0-d942-4e13-bda3-c950a935617a:read' # Homepage

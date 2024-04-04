@@ -1,4 +1,4 @@
-dateModified: 1712141100
+dateModified: 1712234570
 email:
   fromEmail: test@iodigital.com
   fromName: comparison
@@ -45,6 +45,7 @@ meta:
     851f8550-ce59-40bd-93ad-dfae9d1d2e0b: Answer # Answer
     5105d55e-d0a9-41b5-884d-92ef10711462: 'On one language' # On one language
     7319b25b-5d3b-460a-bd07-faf2a2b640f5: 'sections - Text - Text' # sections - Text - Text
+    7571c021-f530-4915-a62c-c0e37c740d99: 'Public Schema' # Public Schema
     37262e64-318e-496f-8c59-3d320f728f4b: 'Contact Form' # Contact Form
     891576b9-cd36-4d25-bea6-5aa1f9174bdf: 'Fixed template - Default' # Fixed template - Default
     55269202-1fff-49bd-97c7-38ce025f46ee: 'On one site' # On one site
